@@ -17,7 +17,7 @@ This solution tackles the complexities of modern file management head-on, ensuri
 - Duplicate file detection for optimized storage
 - Local deployment options for enhanced security and data privacy.
 - Automatic version control and malicious file detection.
-Automatic file translation.
+- Automatic file translation.
 - Robust data backup.
 - Advanced search capabilities for images and voice content.
 
@@ -86,14 +86,10 @@ Or
 ## Authors
 
 - [Zouambia Sohaib](https://github.com/z-sohaib)
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at js_zouambia@esi.dz
+- [Abdelkarim Bengherbia](https://github.com/abdelkarim17b)
 
 
 ## Support
 
-For support, email js_zouambia@esi.dz.
+For support, email js_zouambia@esi.dz or abdelkarimbengherbia@gmail.com.
 

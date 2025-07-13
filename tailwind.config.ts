@@ -46,6 +46,10 @@ const config: Config = {
         300px in the sidebar and 1484px for the content inside the dashboard
       */
 
+      fontFamily: {
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        body: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+      },
       fontWeight: {
         // Custom font weights just read ot form figma and put
         thin: '100',

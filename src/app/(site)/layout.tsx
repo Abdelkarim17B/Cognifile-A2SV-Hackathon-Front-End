@@ -1,12 +1,6 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
 import { ThemeProviders } from '@/src/providers/theme';
 import '@/src/styles/globals.css';
-
-const poppins = Poppins({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  preload: false,
-});
 
 export const metadata: Metadata = {
   title: 'Cognifile',
@@ -21,9 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${poppins.className} dark:bg-cf-dark text-cf-dark dark:text-white bg-white transition-colors duration-300 ease-in-out`}
-      >
+      <body className="font-sans dark:bg-cf-dark text-cf-dark dark:text-white bg-white transition-colors duration-300 ease-in-out">
         <ThemeProviders>{children}</ThemeProviders>
       </body>
     </html>
